@@ -1,9 +1,6 @@
 pipeline {
     agent any
-      tools {
-        maven 'Maven-Auto'   // Name from Global Tool Configuration
-        jdk 'JDK-17'         // Optional: auto-install JDK
-    }
+     
     
     stages {   
         stage('Compile') {
