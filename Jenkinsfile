@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven-3.9' // This name must match the name in Global Tool Configuration
+        maven 'Maven' // This name must match the name in Global Tool Configuration
     }
     stages {   
         stage('Compile') {
