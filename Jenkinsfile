@@ -1,9 +1,6 @@
 pipeline {
     agent any
-    tools {
-        java 
-        maven// This name must match the name in Global Tool Configuration
-    }
+    
     stages {   
         stage('Compile') {
             steps {
